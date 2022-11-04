@@ -2,3 +2,5 @@ apscheduler==3.6.3
 cryptography==3.3.2 
 python-binance==0.7.5
 termcolor==1.1.0
+pytz==2022.5
+requests

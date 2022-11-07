@@ -25,7 +25,7 @@ pair,round_off = [], []
 for i in range(len(base)):
     if len(quote) > 1 : my_quote_asset = quote[i]
     else: my_quote_asset = quote[0]
-    pair.append(base[i] + quote[0])
+    pair.append(base[i] + quote[i])
 
 for coin in quote:
     if coin == "USDT": decimal = 2

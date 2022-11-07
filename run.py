@@ -8,8 +8,8 @@ import pytz
 from webhook_launcher import telegram_bot_sendtext
 
 # Get environment variables
-api_key     = 'puz3h0kM87ZRsuwpag6Gqqrv3dfd5ynVp385XCuxbFKDtbjvPO3fe3jONSye50Rm'
-api_secret  = 'DNuuWQW4ftOzKAcaGATbZQi05GTgYD0nHwm9JWxgtxGi29hYrMbEokmvMACDwli7'
+api_key     = ''
+api_secret  = ''
 client      = Client(api_key, api_secret)
 
 # Value from config.py
